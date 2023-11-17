@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Seller Registration</title>
+
+        <style type="text/css">
+            body
+            {
+                 background: #de0f62;
+
+            }
+            .form-class
+            {
+                border: 1px solid #000;
+                padding-bottom: 20px;
+                margin-top: 20px;
+                border-radius: 10px;
+                background: white;
+                box-shadow: 3px 6px 10px #000;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 form-class">
+                    <form>
+                        <div class="row">
+                    <div class="col-md-12">
+                        <br>
+                        <h3>Seller Details</h3>
+                        <label><strong>Seller/Company Name</strong></label>
+                        <input type="text" name="name" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="col-md-12">
+                            <label><strong>E-Mail Address</strong></label>
+                            <input type="email" class="form-control" placeholder="E-Mail" required>
+                        </div>
+                        <div class="col-md-12">
+                            <label><strong>Contact No.</strong></label>
+                            <input type="number" class="form-control" placeholder="Mobile">
+                        </div>
+                        <div class="col-md-12">
+                            <label><strong>Location and Address</strong></label>
+                            <textarea name="address" class="form-control" placeholder="Address" rows="5"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <label><strong>Are your products available on other e-commerce websites?</strong></label>
+                            <br>
+                            <input type="radio" name="course" value="Yes">Yes
+                            <input type="radio" name="course" value="No">No
+                        </div>
+                        <div class="col-md-12">
+                            <label><strong>Tell Us More About Yourself/Your Company</strong></label>
+                            <textarea name="yourself" class="form-control" placeholder="yourself" rows="5"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <label><strong>Company's Official Website(if exists)</strong></label>
+                            <input type="url" class="form-control" placeholder="Instagram" required>
+                        </div>
+                        <div class="col-md-12">
+                            <label><strong>Facebook Page(if exists)</strong></label>
+                            <input type="url" class="form-control" placeholder="Instagram" required>
+                        </div>
+                        <div class="col-md-12">
+                            <label><strong>Instagram Page(if exists)</strong></label>
+                            <input type="url" class="form-control" placeholder="Instagram" required>
+                        </div>
+                        <div class="col-md-12">
+                        <p>NOTE-You will be contacted within 3-4 business days if your application is successful</p>
+                        </div>
+                        <div class="col-md-12" style="margin-top: 20px;">
+                            <button type="submit" class="btn btn-info form-control" name="submit_button">Submit
+                            </button>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
